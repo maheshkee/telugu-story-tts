@@ -1,0 +1,81 @@
+# Session Context
+
+## User Prompts
+
+### Prompt 1
+
+create readme.md file and add title of the project "telugustory-tts-sarvam" and commit it to git , also create a .gitignore file and add all the typical ignore files to be added like executables, . files, builds, artifacts and commit that to git
+
+### Prompt 2
+
+add . (dot) files to gitignore and commit to git
+
+### Prompt 3
+
+create simple text file and add "1. Create a short story in Telugu. (200 words max limit). 2. Use https://docs.sarvam.ai/api-reference-docs/api-guides-tutorials/text-to-speech/overview and write Python script which generates audio for the story 3. Keep exploring the right voices which generate good quality audio for story telling. 4. Now using your script, generate the audio for the story. 5. Add the Text of the Story and the generated audio, to README.md file of the project and make to playa...
+
+### Prompt 4
+
+Create a simple Python project structure for a Telugu text-to-speech project.
+
+Requirements:
+- Python script for TTS
+- Two Telugu story text files
+- README.md
+- voice testing folder
+
+Structure should be beginner friendly.
+
+Do not generate complex frameworks.
+
+### Prompt 5
+
+Write a Telugu children's story under 200 words suitable for audio storytelling.
+Use simple Telugu language and include a moral at the end.
+
+### Prompt 6
+
+Read the Sarvam AI text-to-speech API documentation and summarize:
+
+1. API endpoint
+2. Authentication method
+3. Required request parameters
+4. Example request
+5. Example response
+
+Keep explanation beginner friendly. copy the response to Problem file. Add a section like:
+
+## Sarvam Text To Speech API Notes
+
+Endpoint:
+Authentication:
+Request fields:
+Response: and commit it
+
+### Prompt 7
+
+Write a simple Python script that uses Sarvam AI Text-to-Speech API.
+
+Requirements:
+- Read Telugu text from a file
+- Send it to Sarvam TTS API
+- Save returned audio as mp3
+- Accept voice parameter
+- Beginner friendly code
+- Use requests library
+
+Command usage example:
+python tts.py stories/story1.txt audio/story1.mp3
+
+### Prompt 8
+
+create a .env file and set a environment variable so that I can add the SARVAM_API_KEY
+
+### Prompt 9
+
+create a .env file and set a environment variable so that I can add the SARVAM_API_KEY which the python script can read from, EXPLAIN THE CODE LINE BY LINE. ASSUEM I AM A BEGINNER. also install python dependencies if any. after that commi to git
+
+### Prompt 10
+
+why did the previous request failed in middle explain and show me what to do in such cases for learning purposes
+
