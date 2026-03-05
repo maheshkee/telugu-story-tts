@@ -1,23 +1,36 @@
-# telugustory-tts-sarvam
+# Telugu Story Text-to-Speech
 
-A simple Python project to convert Telugu stories into high-quality audio using Sarvam AI's Text-to-Speech API.
+This project converts Telugu stories into audio using Sarvam AI Text-to-Speech API.
 
-## Project Structure
-- `stories/`: Folder containing Telugu short stories in text format.
-- `voice_testing/`: Folder to save and test different voices.
-- `tts.py`: The main Python script to generate audio from text.
-- `PROBLEM.md`: The problem definition and project goals.
+---
 
-## How to use
-1. Add your Telugu story in a `.txt` file inside the `stories/` folder.
-2. Run `tts.py` with your Sarvam AI API key.
-3. Check the `voice_testing/` or `output/` folder for the generated audio.
+## Story 1: The Lion and the Mouse
 
-## Examples
-### Example 1: The Lion and the Mouse
-**Text:** అనగనగా ఒక అడవిలో ఒక సింహం ఉండేది...
-**Audio:** [Coming soon]
+### Story Text
+అనగనగా ఒక అడవిలో ఒక సింహం ఉండేది. అది చాలా గర్వంగా ఉండేది. ఒక రోజు ఒక చిన్న ఎలుక దాని మీద ఆడుకోవడానికి వచ్చింది. సింహం దాన్ని చంపాలని చూసింది. ఎలుక తనని క్షమించమని వేడుకుంది. కొంత కాలం తర్వాత సింహం వేటగాడి వలలో చిక్కుకుంది. ఎలుక ఆ వలను కొరికి సింహాన్ని కాపాడింది. అప్పటి నుంచి సింహం ఎలుక మంచి స్నేహితులయ్యారు.
 
-### Example 2: The Thirsty Crow
-**Text:** ఒక ఊరిలో ఒక తెలివైన కాకి ఉండేది...
-**Audio:** [Coming soon]
+### Listen
+<audio controls>
+  <source src="audio/story1.mp3" type="audio/mpeg">
+</audio>
+
+---
+
+## Story 2: The Thirsty Crow
+
+### Story Text
+ఒక ఊరిలో ఒక తెలివైన కాకి ఉండేది. దానికి చాలా దాహం వేసింది. అది ఒక కుండలో కొంచెం నీరు చూసింది. కానీ నీరు చాలా లోతులో ఉన్నాయి. కాకి తన ముక్కుతో చిన్న చిన్న రాళ్లను కుండలో వేసింది. నీరు పైకి వచ్చాయి. కాకి ఆనందంగా నీరు తాగి ఎగిరిపోయింది. ప్రయత్నం చేస్తే ఏదైనా సాధించవచ్చు.
+
+### Listen
+<audio controls>
+  <source src="audio/story2.mp3" type="audio/mpeg">
+</audio>
+
+---
+
+## Technology Used
+
+- Python
+- Sarvam AI TTS API
+- Gemini CLI
+- Git + Entire tracking
