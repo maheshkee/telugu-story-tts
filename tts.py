@@ -2,6 +2,10 @@ import os
 import sys
 import base64
 import requests
+from dotenv import load_dotenv
+
+# Load variables from the .env file
+load_dotenv()
 
 def text_to_speech(input_file, output_file, voice="shubh"):
     """
