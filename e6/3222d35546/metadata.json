@@ -1,0 +1,26 @@
+{
+  "cli_version": "0.4.9",
+  "checkpoint_id": "e63222d35546",
+  "strategy": "manual-commit",
+  "branch": "main",
+  "checkpoints_count": 0,
+  "files_touched": [
+    "tts.py"
+  ],
+  "sessions": [
+    {
+      "metadata": "/e6/3222d35546/0/metadata.json",
+      "transcript": "/e6/3222d35546/0/full.jsonl",
+      "context": "/e6/3222d35546/0/context.md",
+      "content_hash": "/e6/3222d35546/0/content_hash.txt",
+      "prompt": "/e6/3222d35546/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 44953,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 28972,
+    "output_tokens": 1029,
+    "api_call_count": 3
+  }
+}
