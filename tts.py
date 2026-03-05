@@ -79,10 +79,10 @@ def text_to_speech(input_file, output_file, voice="shubh"):
         print(f"An error occurred: {e}")
 
 if __name__ == "__main__":
-    # Command line usage: python tts.py <input.txt> <output.mp3> [voice]
+    # Command line usage: python tts.py <input.txt> <output.wav> [voice]
     if len(sys.argv) < 3:
         print("Usage: python tts.py <input_text_file> <output_audio_file> [voice_name]")
-        print("Example: python tts.py stories/story1.txt audio/story1.mp3 shubh")
+        print("Example: python tts.py stories/story1.txt audio/story1.wav shubh")
     else:
         input_path = sys.argv[1]
         output_path = sys.argv[2]
