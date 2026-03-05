@@ -40,7 +40,7 @@ def text_to_speech(input_file, output_file, voice="shubh"):
         "text": text,
         "target_language_code": "te-IN",
         "speaker": voice,
-        "model": "bulbul:v1"
+        "model": "bulbul:v3"
     }
 
     # 3. Send Request to Sarvam AI
@@ -52,8 +52,11 @@ def text_to_speech(input_file, output_file, voice="shubh"):
         
         if response.status_code == 200:
             # 4. Decode the base64 audio data and save it
-            audio_content = response.json().get("audio")
-            if audio_content:
+            # The API returns a list of audio strings in the "audios" field
+            audio_list = response.json().get("audios")
+            if audio_list and len(audio_list) > 0:
+                # We take the first audio string from the list
+                audio_content = audio_list[0]
                 audio_data = base64.b64decode(audio_content)
                 
                 # Create output directory if it doesn't exist
